@@ -12,7 +12,8 @@ import com.jayway.restassured.specification.RequestSpecification;
 
 public class GetRequest {
 
-	//this is get request
+	//this is get request by Yegor
+	
 	public static String url = "https://t8d0j8mnug.execute-api.us-east-1.amazonaws.com/V1/employee/";
 	public static String appId = "cloudAPI-1294609943";
 	public static String merchantId = "d74c2645-2529-462b-80e6-f61bc2b467d0";
@@ -21,6 +22,7 @@ public class GetRequest {
 	public static Response response;
 	
 	public static GetToken gat = new GetToken ();
+	
 	public static String Token = GetToken.POST_GetAccessToken();
 	
 	@BeforeClass

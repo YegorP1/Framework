@@ -17,12 +17,14 @@ import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
 
 public class EriBank {
+	
 	private String UserName = "company";
 	private String Password = "company";
 	
 	private String reportDirectory = "C:\\Test\\AppiumReports";
 	private String reportFormat = "xml";
 	private String testName = "BankApp.html";
+	
 	protected AndroidDriver driver = null;
 
 	@BeforeClass
