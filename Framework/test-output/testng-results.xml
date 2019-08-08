@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11028" started-at="2019-02-15T11:09:46Z" finished-at="2019-02-15T11:09:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11028" started-at="2019-02-15T11:09:46Z" finished-at="2019-02-15T11:09:57Z">
+      <class name="Selenium.Demo">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Selenium.Demo@4524411f]" name="openBrowser" is-config="true" duration-ms="7741" started-at="2019-02-15T11:09:46Z" finished-at="2019-02-15T11:09:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:Selenium.Demo@4524411f]" name="test1" duration-ms="2018" started-at="2019-02-15T11:09:53Z" finished-at="2019-02-15T11:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Selenium.Demo@4524411f]" name="closeBrowser" is-config="true" duration-ms="1187" started-at="2019-02-15T11:09:55Z" finished-at="2019-02-15T11:09:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Selenium.Demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

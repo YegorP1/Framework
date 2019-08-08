@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="87801" started-at="2019-02-15T11:33:25Z" finished-at="2019-02-15T11:34:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="87801" started-at="2019-02-15T11:33:25Z" finished-at="2019-02-15T11:34:53Z">
+      <class name="RestAssured.GetRequest">
+        <test-method status="PASS" signature="start()[pri:0, instance:RestAssured.GetRequest@2cab9998]" name="start" is-config="true" duration-ms="31" started-at="2019-02-15T11:33:25Z" finished-at="2019-02-15T11:33:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="GET_EmployeeList()[pri:0, instance:RestAssured.GetRequest@2cab9998]" name="GET_EmployeeList" duration-ms="13901" started-at="2019-02-15T11:33:25Z" finished-at="2019-02-15T11:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GET_EmployeeList -->
+      </class> <!-- RestAssured.GetRequest -->
+      <class name="Selenium.Demo">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Selenium.Demo@71c5b236]" name="openBrowser" is-config="true" duration-ms="43974" started-at="2019-02-15T11:33:25Z" finished-at="2019-02-15T11:34:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:Selenium.Demo@71c5b236]" name="test1" duration-ms="2017" started-at="2019-02-15T11:34:09Z" finished-at="2019-02-15T11:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Selenium.Demo@71c5b236]" name="closeBrowser" is-config="true" duration-ms="745" started-at="2019-02-15T11:34:11Z" finished-at="2019-02-15T11:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Selenium.Demo -->
+      <class name="Appium.EriBank">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Appium.EriBank@2f7a7219]" name="setUp" is-config="true" duration-ms="25732" started-at="2019-02-15T11:33:25Z" finished-at="2019-02-15T11:33:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="EribTest()[pri:0, instance:Appium.EriBank@2f7a7219]" name="EribTest" duration-ms="52769" started-at="2019-02-15T11:33:51Z" finished-at="2019-02-15T11:34:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EribTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Appium.EriBank@2f7a7219]" name="tearDown" is-config="true" duration-ms="9282" started-at="2019-02-15T11:34:44Z" finished-at="2019-02-15T11:34:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Appium.EriBank -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
